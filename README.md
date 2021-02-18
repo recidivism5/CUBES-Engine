@@ -21,3 +21,5 @@ Anyways to render geometry in a different place/orientation/scale you gotta alte
 each vector by a rotation/translation matrix and then by your MVP matrix or really whatever on earth you want! INFINITE WAYS TO TRANSFORM YOUR SHAPES AND PROJECT THEM! YEAAH!!!!
 
 I think a cool hack might be to make a new quaternion rotator that just multiplies your point by one quaternion, instead of sandwiching it between two. You could experiment with 4d transformations and projections.
+
+![alt text](https://github.com/recidivism5/CUBES-Engine/blob/master/Cover.png?raw=true)

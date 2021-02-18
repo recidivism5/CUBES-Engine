@@ -1,5 +1,4 @@
 Comes with functions for:
-Markup :
   * Quaternion rotation
   * View matrix generation with lookAt (own implementation, not from GLM)
   * Perspective projection matrix generation

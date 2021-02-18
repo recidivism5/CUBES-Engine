@@ -1,3 +1,7 @@
+Requires:
+* SDL2
+* GLEW
+
 Comes with functions for:
   * Quaternion rotation
   * View matrix generation with lookAt (own implementation, not from GLM)

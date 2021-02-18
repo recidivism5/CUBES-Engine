@@ -2,6 +2,8 @@ Requires:
 * SDL2
 * GLEW
 
+Thanks to tilkinsc and opengl-tutorial.org
+
 Comes with functions for:
   * Quaternion rotation
   * Multiplication of two 4x4 matrices. 4x4 matrices are in the form: float my_matrix[16];

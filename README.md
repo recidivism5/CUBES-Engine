@@ -1,10 +1,17 @@
+Requires:
+* SDL2
+* GLEW
+
+Thanks to tilkinsc and opengl-tutorial.org
+
 Comes with functions for:
-Quaternion rotation
-View matrix generation with lookAt (own implementation, not from GLM)
-Perspective projection matrix generation
-DDS texture loading (Credit to tilkinsc on github, the dds loader is entirely his: https://gist.github.com/tilkinsc/13191c0c1e5d6b25fbe79bbd2288a673)
-Mouse camera rotation
-WASD noclip movement
+  * Quaternion rotation
+  * Multiplication of two 4x4 matrices. 4x4 matrices are in the form: float my_matrix[16];
+  * View matrix generation with lookAt (own implementation, not from GLM)
+  * Perspective projection matrix generation
+  * DDS texture loading (Credit to tilkinsc on github, the dds loader is entirely his: https://gist.github.com/tilkinsc/13191c0c1e5d6b25fbe79bbd2288a673)
+  * Mouse camera rotation
+  * WASD noclip movement
 
 The shaders, which are all copied directly from opengl-tutorial.org, form the core of this engine. Whenever you want to render something, you'll need a big long 1 dimensional array of vertices. 3 consecutive values make a vertex.
 

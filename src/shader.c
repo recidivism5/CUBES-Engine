@@ -1,7 +1,5 @@
 #include "shader.h"
 
-//read_shader_src was written by tilkinsk https://gist.github.com/tilkinsc/13191c0c1e5d6b25fbe79bbd2288a673
-
 char* read_shader_src(const char* path)
 {
   static FILE* stream;

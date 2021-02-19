@@ -1,5 +1,7 @@
 #include <texture.h>
 
+//loadDDS was written by tilkinsk https://gist.github.com/tilkinsc/13191c0c1e5d6b25fbe79bbd2288a673
+
 GLuint loadDDS(const char* path) {
   // lay out variables to be used
 	unsigned char* header;
